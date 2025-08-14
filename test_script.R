@@ -1,8 +1,9 @@
-setwd("C:/Users/hussasaj/Documents/AFSC-NOAA-Pacific-Cod-Project")
-#this sis to test the repo
-a <- b+c
+# Basic test script for the repository
+# Fixed to work in current environment
 b <- 1
 c <- 2
-print(a)
+a <- b + c
+print(paste("a =", a))
 
-d <- a*b
+d <- a * b
+print(paste("d =", d))
